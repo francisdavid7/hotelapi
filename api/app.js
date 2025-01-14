@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
-// Replace this with your Foursquare API key
+// Foursquare API key
 const FOURSQUARE_API_KEY = 'fsq3GB1w/TlaskbikpILtnTSphQ96GlzCuL3jNCXmnGjyfA=';
 
 app.get('/search', async (req, res) => {
